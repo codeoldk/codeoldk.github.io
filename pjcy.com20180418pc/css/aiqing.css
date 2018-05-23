@@ -1,0 +1,760 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-18 18:22:33
+ * @version $Id$
+ */
+/*reset css*/
+* {margin: 0;padding:0;}
+
+.banner .slide:first-child {
+    background: url('../imgs/aiqing/banner1.jpg') no-repeat center;
+}
+.middle-title {
+    height: 50px;
+}
+.title-describe {
+    text-align: center;
+    color: #666;
+    line-height: 32px;  
+    font-weight: 700;
+}
+/*失恋*/
+.lostlove-title {
+    height: 100px;
+    background: url('../imgs/aiqing/title.png') no-repeat center top;
+    margin: 50px auto 25px;
+}
+.lostlove {
+    background: url('../imgs/aiqing/lostlovebg.jpg') no-repeat center;
+    height: 675px;
+}
+.lostlove ul {
+    position: relative;
+    height: 650px;
+}
+.lostlove li {
+    width: 161px;
+    height: 161px;
+    border-radius: 100%;
+    border: 5px solid white;
+    box-shadow: 2px 2px 20px rgba(20,20,20,0.3);
+    position: absolute;
+    top: 0;
+}
+.lostlove li img {
+    border-radius: 100%;
+}
+.lostlove li>p {
+    width: 100%;
+    height: 56px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 5px;
+}
+.lostlove li>p span {
+    display: table-cell;
+    width: 151px;
+    height: 56px;
+    vertical-align: middle;
+    text-align: center;
+}
+.lostlove li div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9e7e5c;
+    border-radius: 100%;
+    display: none;
+}
+.lostlove li:hover div,.lostlove li.active div {
+    display: block;
+}
+.lostlove li div p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 151px;
+    height: 151px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.lostlove li:first-child {
+    top: 90px;
+    left: 14px;
+}
+.lostlove li:nth-child(2) {
+    top:  277px;
+    left: 86px;
+}
+.lostlove li:nth-child(3) {
+    top: 360px;
+    left: 288px;
+}
+.lostlove li:nth-child(4) {
+    top: 390px;
+    left: 518px;
+}
+.lostlove li:nth-child(5) {
+    top: 360px;
+    left: 748px;
+}
+.lostlove li:nth-child(6) {
+    top: 277px;
+    left: 955px;
+}
+.lostlove li:nth-child(6) {
+    top: 277px;
+    left: 955px;
+}
+.lostlove li:nth-child(7) {
+    top: 90px;
+    left: 1017px;
+}
+.lostlove2 {
+    height: 550px;
+    background: url('../imgs/aiqing/lostlove2bg.jpg') no-repeat center;
+}
+/*失恋 end*/
+/*挽回失败*/
+.redeemfail {
+    height: 780px;
+    background: url('../imgs/aiqing/redeemfailbg.jpg') no-repeat center top;
+}
+.redeemfail .title {
+    background: url('../imgs/aiqing/title.png') no-repeat center -100px;
+    margin-bottom: 50px;
+}
+.redeemfail li {
+    width: 226px;
+    height: 420px;
+    float: left;
+    margin: 0 7px;
+    overflow: hidden;
+}
+.redeemfail li .t {
+    width: 100%;
+    height: 250px;
+    background: url('../imgs/aiqing/redeemfail-box.png') no-repeat center;
+    padding-top: 65px;
+}
+.redeemfail li .t h6 {
+    font-size: 36px;
+    color: #9d065f;
+    text-align: center;
+    line-height: 55px;
+}
+.redeemfail li .t p {
+    font-size: 22px;
+    color: #333333;
+    text-align: center;
+}
+.redeemfail .triangle {
+    width: 0;
+    height: 0;
+    border-top: 16px solid #9c065f;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin: 0 auto;
+}
+.redeemfail li>p {
+    padding: 10px 22px;
+    color: #666;
+    line-height: 22px;
+}
+.redeemfail .contact img{
+    display: block;
+    margin: 0 auto; 
+}
+/*挽回失败 end*/
+/*挽回爱情服务*/
+.redeem-service {
+    height: 780px;
+    background: url('../imgs/aiqing/redeem-servicebg.png') no-repeat center top;
+}
+.redeem-service .control {
+    padding: 125px 0 0 69px;
+    font-size: 0;
+}
+.redeem-service .control li {
+    width: 196px;
+    height: 150px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -39px;
+    color: #666;
+    float: left;
+    text-align: center;
+    padding-left: 35px;
+}
+.redeem-service .control li p {
+    display: table-cell;
+    width: 196px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+.redeem-service .control li:hover,.redeem-service .control li.active {
+    background: url('../imgs/aiqing/redeem-service-c.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.redeem-service .wrapper {
+    padding: 50px 73px;
+}
+.redeem-service .wrapper li {
+    display: none;
+}
+.redeem-service .wrapper li:first-child {
+    display: block;
+}
+.redeem-service .wrapper li div {
+    float: left;
+    width: 530px;
+    padding: 18px 23px 0;
+}
+.redeem-service .wrapper li div h5 {
+    font-size: 30px;
+    color: #333;
+    line-height: 60px;
+}
+.redeem-service .wrapper li div p {
+    font-size: 18px;
+    color: #666;
+    line-height: 30px;
+}
+.redeem-service .wrapper li img {
+    display: block;
+    float: left;
+    box-shadow: 2px 2px 35px rgba(22,22,22,0.4);
+    margin-left: 30px;
+}
+/*挽回爱情服务 end*/
+/*选择我们*/
+.choice-us {
+    height: 748px;
+    background: url('../imgs/aiqing/choice-usbg.png') no-repeat center top;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.choice-us .media {
+    width: 555px;
+    height: 347px;
+    display: block;
+    margin: 310px auto 0;
+    box-shadow: 0px 0px 27px 1px rgba(0,0,0,0.56);
+    background: black;
+}
+/*选择我们 end*/
+/*提供内容*/
+.offer-content {
+    max-width: 1250px;
+    padding: 0 25px 15px;
+}
+.offer-content .title {
+    margin: 70px auto 35px;
+    height: 50px;
+    background: url('../imgs/aiqing/title.png') no-repeat center -150px;
+}
+.offer-content .opus-box {
+    height: 436px;
+    box-shadow: 2px 3px 15px rgba(34,24,21, 0.3);
+    padding: 12px;
+}
+.offer-content .opus-box .opusbg {
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    background: rgb(170,126,31);
+    background: -moz-linear-gradient(top, rgb(170,126,31) 0%, rgb(236,180,69) 28%, rgb(170,126,31) 100%);
+    background: -webkit-linear-gradient(top, rgb(170,126,31) 0%,rgb(236,180,69) 28%,rgb(170,126,31) 100%);
+    background: linear-gradient(to bottom, rgb(170,126,31) 0%,rgb(236,180,69) 28%,rgb(170,126,31) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa7e1f', endColorstr='#aa7e1f',GradientType=0 );
+}
+.offer-content .opus {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 28px 10px 0 20px;
+}
+.offer-content .opus .item {
+    width: 462px;
+    height: 344px;
+    box-shadow: 2px 3px 15px rgba(30,30,30,0.3);
+    float: left;
+}
+.offer-content .opus .item li {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+.offer-content .opus .item li.active {
+    display: block;
+}
+.offer-content .opus .item li p {
+    width: 100%;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    bottom: 0;
+}
+.offer-content .opus .list-box {
+    float: right;
+    width: 651px;
+}
+.offer-content .opus .list-box p {
+    height: 250px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    text-indent: 2em;
+    padding: 44px 56px 0;
+    margin: 0;
+}
+.offer-content .opus .list-box li {
+    width: 121px;
+    height: 93px;
+    padding: 5px;
+    float: left;
+    margin-right: 8px;
+    box-shadow: 2px 2px 10px rgba(20,20,20,0.3);
+}
+.offer-content .opus .list-box li img {
+    width: 100%;
+    height: 100%;
+}
+/*提供内容 end*/
+/*核心技术*/
+.core-technology {overflow: hidden;}
+.core-technology .title {
+    height: 50px;
+    background: url('../imgs/aiqing/title.png') no-repeat center -200px;
+    margin: 50px auto;
+}
+.core-technology .list {
+    max-width: 1250px;
+    padding: 10px 25px;
+}
+.core-technology .list li {
+    float: left;
+    width: 224px;
+    height: 172px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(50,50,50,0.3);
+    margin: 0 20px 20px 0;
+}
+.core-technology .list li:nth-child(5n) {
+    margin: 0;
+}
+.core-technology .list li span {
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin: 30px auto 6px;
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 0;
+}
+.core-technology .list li h6 {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    color: #666;
+    line-height: 40px;
+    font-weight: 400;
+}
+.core-technology .list li p {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    margin: 0;
+}
+.core-technology .list li:nth-child(2) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -44px;
+}
+.core-technology .list li:nth-child(3) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -88px;
+}
+.core-technology .list li:nth-child(4) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -132px;
+}
+.core-technology .list li:nth-child(5) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -176px;
+}
+.core-technology .list li:nth-child(6) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -220px;
+}
+.core-technology .list li:nth-child(7) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -264px;
+}
+.core-technology .list li:nth-child(8) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -308px;
+}
+.core-technology .list li:nth-child(9) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -352px;
+}
+.core-technology .list li:nth-child(10) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -396px;
+}
+.core-technology .list li:nth-child(11) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -440px;
+}
+.core-technology .list li:nth-child(12) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -484px;
+}
+.core-technology .list li:nth-child(13) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -528px;
+}
+.core-technology .list li:nth-child(14) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -572px;
+}
+.core-technology .list li:nth-child(15) span {
+    background: url('../imgs/aiqing/icon.png') no-repeat 0 -616px;
+}
+/*核心技术 end*/
+/*专家团队*/
+.team .title {
+    height: 50px;
+    background: url('../imgs/aiqing/title.png') no-repeat center -250px;
+    margin: 30px auto;
+}
+.team>p, .team>h6 {
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+.team>p {
+    color: #666;
+}
+.team .tutor {
+    height: 590px;
+    margin-top: 15px;
+    background: url('../imgs/aiqing/teambg.jpg') no-repeat center top;
+    overflow: hidden;
+}
+.team .tutor-list {
+    margin-top: 395px;
+    height: 185px;
+}
+.team .tutor-list span {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 88px;
+    background: url('../imgs/aiqing/icon.png') no-repeat -44px -176px;
+    margin-top: 50px;
+}
+.team .tutor-list span.next-btn {
+    background: url('../imgs/aiqing/icon.png') no-repeat -94px -176px;
+}
+.team .tutor-list div {
+    width: 1078px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 15px 0;
+    position: relative;
+}
+.team .tutor-list div ul {
+    font-size: 0;
+    position: absolute;
+}
+.team .tutor-list div ul li {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+    margin: 0 15px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 15px rgba(100,100,100, 0.5);
+    background: rgb(170,126,31);
+    background: -moz-linear-gradient(-45deg, rgb(170,126,31) 0%, rgb(236,180,69) 52%, rgb(170,126,31) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(170,126,31) 0%,rgb(236,180,69) 52%,rgb(170,126,31) 100%);
+    background: linear-gradient(135deg, rgb(170,126,31) 0%,rgb(236,180,69) 52%,rgb(170,126,31) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa7e1f', endColorstr='#aa7e1f',GradientType=1 );
+}
+.team .tutor-list div ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+/*专家团队 end*/
+/*一对一*/
+.onetoone {
+    height: 720px;
+    background: url('../imgs/aiqing/onetoone.jpg') no-repeat center top;
+    overflow: hidden;
+}
+.onetoone .title {
+    margin: 60px auto;
+}
+.onetoone .title .middle-title {
+    background: url('../imgs/aiqing/title.png') no-repeat center -300px;
+}
+.onetoone li {
+    width: 271px;
+    height: 297px;
+    background: url('../imgs/aiqing/onetuonesb.png') no-repeat center;
+    float: left;
+    margin: 0 14px;
+}
+.onetoone li div.icon {
+    width: 100px;
+    height: 88px;
+    margin: 25px auto 0;
+    background: url('../imgs/aiqing/icon.png') no-repeat -44px 0;
+}
+.onetoone li:nth-child(2) div.icon {
+    background: url('../imgs/aiqing/icon.png') no-repeat -144px 0;
+}
+.onetoone li:nth-child(3) div.icon {
+    background: url('../imgs/aiqing/icon.png') no-repeat -244px 0;
+}
+.onetoone li:nth-child(4) div.icon {
+    background: url('../imgs/aiqing/icon.png') no-repeat -344px 0;
+}
+.onetoone li h6 {
+    font-size: 26px;
+    color: #666;
+    text-align: center;
+}
+.onetoone li p {
+    font-size: 18px;
+    color: #666;
+    padding: 10px 36px;
+    line-height: 28px;
+    text-align: center;
+}
+/*一对一 end*/
+/*快速了解破镜重圆*/
+.liaojie .middle-title {
+    background: url('../imgs/aiqing/title.png') no-repeat center -350px;
+    margin-top: -60px;
+}
+.liaojie .different {
+    height: 1031px;
+    padding: 252px 68px 0;
+    background: url('../imgs/aiqing/differentbg.png') no-repeat center top;
+}
+.liaojie .different li {
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.liaojie .different p {
+    color: #333;
+    width: 414px;
+    height: 88px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.liaojie .different p:first-child {
+    font-size: 18px;
+    line-height: 24px;
+}
+.liaojie .different p:nth-child(2) {
+    width: 227px;
+    font-size: 24px;
+    color: white;
+}
+.liaojie .different p:last-child {
+    font-size: 20px;
+    line-height: 26px;
+    color: #fa2584;
+}
+/*快速了解破镜重圆 end*/
+/*服务全球*/
+.serviceglobal {
+    height: 800px;
+    margin: 55px 0 -30px;
+    background: url('../imgs/aiqing/serviceglobal.jpg') no-repeat center top;
+}
+/*服务全球 end*/
+/*流程*/
+.liucheng {
+    height: 815px;
+    background: url('../imgs/aiqing/liucheng.jpg') no-repeat center top;
+}
+/*流程 end*/
+/*客户感言*/
+.client-thanks {
+    height: 760px;
+    background: url('../imgs/aiqing/client-thianksbg.jpg') no-repeat center top;
+}
+.client-thanks>div {
+    padding-top: 155px;
+}
+.client-thanks .phone-show {
+    width: 304px;
+    height: 586px;
+    background: url('../imgs/aiqing/client-thanks-phonebg.png') no-repeat center;
+    padding: 71px 34px 103px;
+    float: left;
+    position: relative;
+}
+.client-thanks .phone-show div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.client-thanks .phone-show img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.client-thanks .data {
+    width: 562px;
+    height: 413px;
+    background: white;
+    border-radius: 10px;
+    padding: 6px;
+    float: left;
+    margin: 70px 0 0 -40px;
+    box-shadow: 0 0 15px rgba(20,20,20,0.3);
+}
+.client-thanks .data .border {
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    background: rgb(170,126,31);
+    background: -moz-linear-gradient(left, rgb(170,126,31) 0%, rgb(236,180,69) 72%, rgb(170,126,31) 100%);
+    background: -webkit-linear-gradient(left, rgb(170,126,31) 0%,rgb(236,180,69) 72%,rgb(170,126,31) 100%);
+    background: linear-gradient(to right, rgb(170,126,31) 0%,rgb(236,180,69) 72%,rgb(170,126,31) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa7e1f', endColorstr='#aa7e1f',GradientType=1 );
+    border-radius: 10px;
+}
+.client-thanks .data .cover {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.client-thanks .data .cover .btn {
+    width: 50px;
+    height: 88px;
+    float: left;
+    background: url('../imgs/aiqing/icon.png') no-repeat -44px -88px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+.client-thanks .data .cover .btn.next {
+    background: url('../imgs/aiqing/icon.png') no-repeat -94px -88px;
+}
+.client-thanks .data .cover ul {
+    width: 420px;
+    height: 100%;
+    float: left;
+}
+.client-thanks .data .cover li {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    display: none;
+}
+.client-thanks .data .cover h6 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    line-height: 64px;
+}
+.client-thanks .data .cover .info {
+    color: #ad2783;
+    text-align: center;
+}
+.client-thanks .data .cover article {
+    width: 100%;
+    height: 265px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+.client-thanks .data .cover article p {
+    color: #666;
+    line-height: 28px;
+    margin: 5px 0;
+    text-indent: 2em;
+}
+.client-thanks .page {
+    width: 370px;
+    height: 420px;
+    float: right;
+    margin-top: 72px;
+    padding: 10px 0;
+    position: relative;
+    overflow-y: hidden;
+}
+.client-thanks .page img {
+    position: absolute;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(20,20,20,0.3);
+    top: 22px;
+    left: 10px; 
+    height: 380px;
+}
+.client-thanks .phone-show img.active,
+.client-thanks .cover li.active {
+    display: block;
+}
+/*客户感言 end*/
+/*客户赠送*/
+.client-present {
+    height: 620px;
+    background: url('../imgs/aiqing/client-presentbg.jpg') no-repeat center top;
+    overflow: hidden;
+}
+.client-present .container {
+    height: 300px;
+    margin-top: 105px;
+}
+.client-present .container span {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 88px;
+    background: url('../imgs/aiqing/icon.png') no-repeat -44px -176px;
+    margin-top: 100px;
+}
+.client-present .container span.next-btn {
+    background: url('../imgs/aiqing/icon.png') no-repeat -94px -176px;
+}
+.client-present .container div {
+    width: 1078px;
+    height: 100%;
+    float: left;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.client-present .container div ul {
+    position: absolute;
+    font-size: 0;
+}
+.client-present .container div ul li {
+    display: inline-block;
+    width: 229px;
+    height: 300px;
+    margin: 0 -7px;
+}
+.client-present .container div ul li img {
+    width: 100%;
+    height: 100%;
+}
+.client-present a.zixun {
+    display: block;
+    position: relative;
+    width: 800px;
+    height: 150px;
+    margin: 40px auto;
+}
+/*客户赠送 end*/

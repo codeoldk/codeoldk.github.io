@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-18 18:22:20
+ * @version $Id$
+ */
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+html{line-height:1.15;-webkit-text-size-adjust:100%;font-family: "Microsoft Yahei", arial, helvetica, clean, sans-serif;}
+body{max-width: 1920px;min-width: 1200px;margin: 0 auto;}h1{font-size:2em;margin:.67em 0;}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:0;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+a {text-decoration: none;cursor: pointer;}
+* {box-sizing: border-box;}
+ul {padding: 0;margin: 0;}
+.list-style-none, .list-style-none li {
+    list-style: none;
+}
+/* 全局重置结束 */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* header start */
+.header {
+    position: relative;
+    z-index: 3;
+}
+.header .top {
+    width: 100%;
+    height: 28px;
+    background: #e5e5e5;
+    overflow-x: hidden;
+    font-size: 12px;
+    color: #666;
+    line-height: 28px;
+}
+.header .top .top-nav {
+    float: right;
+}
+.header .top a {
+    color: #666;
+}
+.header .top a:before {
+    content: '| ';
+}
+.header .top a:first-child:before {
+    content: '';
+}
+.header-logo {
+    height: 122px;
+}
+.header-logo .logo {
+    margin: 15px 36px 15px 0;
+    float: left;    
+}
+.header-logo .logo a {
+    display: inline-block;
+    width: 288px;
+    height: 85px;
+    background: url('../imgs/common.png') -8px -28px no-repeat;
+}
+.header-logo .cctv-logo {
+    display: inline-block;
+    width: 125px;
+    height: 53px;
+    background: url('../imgs/common.png') -368px -44px;
+}
+.header-logo span {
+    margin: 32px 0;
+}
+.header-logo .contact {
+    display: inline-block;
+    float: right;
+    width: 175px;
+    height: 50px;
+}
+.header-logo .contact:last-child {
+    background: url('../imgs/common.png') -567px -48px;
+    margin-right: 8px;
+}
+.header-logo .contact:nth-child(3) {
+    background: url('../imgs/common.png') -753px -48px;
+}
+.header .header-nav {
+    padding-left: 20px;
+    height: 42px;
+}
+.header .header-nav a {
+    display: block;
+    float: left;
+    margin: 0 30px 10px 0;
+    font-size: 16px;
+    color: #666;
+    padding-top: 2px;
+}
+.header .header-nav a:hover {
+    color: #cb9634;
+}
+.header .header-nav a:before {
+    content: '';
+    display: block;
+    float: left;
+    width: 36px;
+    height: 25px;
+    margin-top: -2px;
+}
+.header .header-nav a:first-child:before {
+    background: url('../imgs/common.png') 15px -168px;
+}
+.header .header-nav a:nth-child(2):before {
+    background: url('../imgs/common.png') -64px -166px;
+}
+.header .header-nav a:nth-child(3):before {
+    background: url('../imgs/common.png') -128px -166px;
+}
+.header .header-nav a:nth-child(4):before {
+    background: url('../imgs/common.png') -199px -166px;
+}
+.header .header-nav a:nth-child(5):before {
+    background: url('../imgs/common.png') -266px -167px;
+}
+.header .header-nav a:nth-child(6):before {
+    background: url('../imgs/common.png') -344px -166px;
+}
+.header .header-nav a:nth-child(7):before {
+    background: url('../imgs/common.png') -410px -166px;
+}
+.header .header-nav a:nth-child(8):before {
+    background: url('../imgs/common.png') -484px -166px;
+}
+.header .header-nav a:nth-child(9):before {
+    background: url('../imgs/common.png') -552px -166px;
+}
+/* 丝带 */
+.sidai {
+    height: 214px;
+    background: url('../imgs/sidai.png') no-repeat top;
+    margin-top: -70px;
+}
+
+.float-window {
+    position: fixed;
+    min-width: 1200px;
+    max-width: 1920px;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 200;
+}
+.float-window .ask-advice {
+    position: absolute;
+    right: 0;
+    top: 180px;
+}
+.float-window .ask-advice div {
+    width: 60px;
+    height: 150px;
+    background: url('../imgs/common.png') -960px 0;
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+.float-window .ask-advice:hover div, .float-window .ask-advice img {
+    display: none;
+}
+.float-window .ask-advice:hover img {
+    display: block;
+}
+ /*banner属于功能视图 
+ 由于在不同页面所显示的banner不一样所以 
+ 公用css存放在公共模块 html和css中包含图片路径的在各自的私有模块*/
+.banner {
+    height: 682px;
+    margin-top: -210px;
+    position: relative;
+    z-index: 1;
+}
+.banner .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.banner .slide:first-child {
+    display: block;
+}
+.banner ul {
+    position: absolute;
+    top: 570px;
+    left: 130px;
+}
+.banner ul li {
+    list-style: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border: 1px solid #be0a89;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+.banner ul li.active {
+    background: #be0a89;
+}
+.bottom-nav {
+    height: 37px;
+    background: #eee;
+    overflow: hidden;
+    text-align: center;
+}
+.bottom-nav a {
+    font-size: 14px;
+    color: #333;
+    line-height: 37px;
+    padding: 0 34px;
+    border-right: 1px solid #b2b2b2;
+}
+.bottom-nav a:last-child {
+    border: none;
+}
+.footer {
+    height: 340px;
+    background: #333;
+}
+.footer .container {
+    padding-top: 51px;
+}
+.footer .pinpai {
+    width: 258px;
+    height: 144px;
+    background: url('../imgs/common.png') -1046px -6px;
+    float: left;
+    margin: 0 55px;
+}
+.footer .website {
+    width: 380px;
+    float: left;
+}
+.footer .website a{
+    display: block;
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 12px;
+}
+.footer .qrcode {
+    float: left;
+}
+.footer .qrcode div {
+    float: left;
+    margin: 0 13px;
+}
+.footer .qrcode div p {
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    margin: 0;
+    line-height: 26px;
+}
+.footer .hr {
+    border-bottom: 1px solid #666;
+    padding: 40px 0 8px;
+    clear: both;
+}
+.footer .copyright {
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0;
+}
+.footer .link {
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+}
+.footer .link a {
+    padding: 0 20px;
+    color: #666;
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>首页</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/tutor.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="top">
+            <div class="container">
+                破镜重圆公司--中国挽回爱情行业领导机构！
+                <span class="top-nav">
+                    <a href="">微信评估</a>
+                    <a href="">爱情百科</a>
+                    <a href="">在线咨询</a>
+                    <a href="">网站地图</a>
+                </span>
+            </div>
+        </div>
+        <div class="header-logo container">
+            <h1 class="logo">
+                <a href="/" alt="深圳市破镜重圆文化传播有限公司" title="深圳市破镜重圆文化传播有限公司"></a>
+            </h1>
+            <span class="cctv-logo"></span>
+            <span class="contact"></span>
+            <span class="contact"></span>
+        </div>
+        <div class="header-nav container">
+            <a href="">首页</a>
+            <a href="">挽回爱情</a>
+            <a href="">挽救婚姻</a>
+            <a href="">追求真爱</a>
+            <a href="">专家团队</a>
+            <a href="">媒体报道</a>
+            <a href="">成功案例</a>
+            <a href="">情感咨询</a>
+            <a href="">关于我们</a>
+        </div>
+        <div class="sidai"></div>
+    </div>
+    <div class="float-window">
+        <div class="ask-advice">
+            <a href="">
+                <div class="small"></div>
+                <img src="./imgs/float-window-advice.png" >
+            </a>
+        </div> 
+    </div>
+    <div class="banner">
+        <a href="" class="slide"></a>
+    </div>
+    <div class="title cctv-specialist">
+        <div></div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n1.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv1.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">央视专家</span>
+                            <span class="name name1"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n2.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv2.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">央视专家</span>
+                            <span class="name name2"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n3.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv3.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">央视专家</span>
+                            <span class="name name3"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n4.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv4.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">央视专家</span>
+                            <span class="name name4"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n5.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv5.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">央视专家</span>
+                            <span class="name name5"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n6.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv6.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">央视专家</span>
+                            <span class="name name6"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n7.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv7.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">央视专家</span>
+                            <span class="name name7"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n8.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv8.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">央视专家</span>
+                            <span class="name name8"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="title good-team">
+        <div></div>
+    </div>
+    <!-- 空div css 使用old even 解决各行问题  -->
+    <div></div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n9.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv9.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">明星专家</span>
+                            <span class="name name9"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <img src="./imgs/tutor/tutor-n10.png" alt="" class="tutor-picture">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-dhv10.jpg" alt="" class="dhv">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">明星专家</span>
+                            <span class="name name10"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box multi">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-n11.png" alt="" class="tutor-picture">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">明星专家</span>
+                            <span class="name name12"></span>
+                            <span class="name name11"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+                <img src="./imgs/tutor/tutor-dhv11.jpg" alt="" class="dhv">
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="large-box multi">
+        <div class="tutor-info">
+            <div class="container info-box">
+                <div class="info">
+                    <img src="./imgs/tutor/tutor-n12.png" alt="" class="tutor-picture">
+                    <div class="detail">
+                        <h5 class="tutor-name">
+                            <span class="symbol">明星专家</span>
+                            <span class="name name13"></span>
+                            <span class="name name14"></span>
+                            <span class="name name2"></span>
+                        </h5>
+                        <p>多次受邀参与CCTV《乡约》节目担任情感专家，并作为主要嘉宾参与广东卫视《社会纵横》、广州电视台《城市话题》、台湾TVBS电视台《中国进行式》等著名电视台节目。</p>
+                    </div>
+                </div>
+                <img src="./imgs/tutor/tutor-dhv12.jpg" alt="" class="dhv">
+            </div>
+            <div class="black-bg"></div>
+        </div>
+    </div>
+    <div class="title moretutor">
+        <div></div>
+    </div>
+    <div class="more-tutor large-box-brownbg">
+        <div class="tutor-list">
+            <ul class="list-style-none">
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide1.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide2.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide3.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide4.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide5.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide6.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide7.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide8.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide9.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide10.jpg"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imgs/tutor/slide11.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-nav">
+        <div class="container">
+            <a href="">首页</a>
+            <a href="">挽回爱情</a>
+            <a href="">挽救婚姻</a>
+            <a href="">追求真爱</a>
+            <a href="">成功案例</a>
+            <a href="">媒体报道</a>
+            <a href="">常见问题</a>
+            <a href="">情感咨询</a>
+            <a href="">关于我们</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="pinpai"></div>
+            <div class="website">
+                <a href="">联系电话：400-040-1399</a>
+                <a href="">破镜重圆官方网站：www.vippua.com</a>
+                <a href="">挽回学院网站：www.puaok.com </a>
+                <a href="">疑爱答网站：www.yiaida.com</a>
+                <a href="">地址：</a>
+            </div>
+            <div class="qrcode">
+                <div>
+                    <img src="./imgs/qrcode-weixin">
+                    <p>官方微信公众号</p>
+                </div>
+                <div>
+                    <img src="./imgs/qrcode-weibo">
+                    <p>官方微博</p>
+                </div>
+                <div>
+                    <img src="./imgs/qrcode-connor">
+                    <p>康纳微博</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <p class="copyright">镜重圆版权所有&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备13023379号</p>
+            <div class="link">友情链接: 
+                <a href="">北京晚报</a>
+                <a href="">深圳晚报</a>
+                <a href="">纽约时报</a>
+                <a href="">南华早报</a>
+                <a href="">新快报</a>
+                <a href="">羊城晚报</a>
+                <a href="">南方日报</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+    $('.more-tutor ul').marquee({
+        direction: "left", // 方向
+        speed: 40,  // 滚动速度   , 
+        duplicated: true, // 持续滚动
+        gap: 0, // 连接间隙
+        pauseOnHover: true, // 移入暂停
+        duration: 10,
+        startVisible: true,
+    });
+</script>
+</html>

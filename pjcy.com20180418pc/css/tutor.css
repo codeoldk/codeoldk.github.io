@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-18 18:22:33
+ * @version $Id$
+ */
+.banner .slide:first-child {
+    background: url('../imgs/tutor/banner1.jpg') no-repeat center;
+}
+.banner {
+    box-shadow: 0 13px 16px 1px rgba(0,0,0,0.2);
+}
+.title {
+    height: 257px;
+    padding-top: 85px;
+}
+.title div {
+    margin: 0 auto;
+    width: 786px;
+    height: 120px;
+    background: url('../imgs/tutor/icon.png');
+}
+.large-box:nth-child(odd), .large-box-brownbg {
+    background: #d5b484 url('../imgs/tutor/bg-brown.png') center top;
+}
+.large-box:nth-child(even), .large-box-greybg {
+    background: #f5f5f5 url('../imgs/tutor/bg-grey.png') center top;
+}
+.large-box {
+    height: 522px;
+    overflow: hidden;
+}
+.large-box .tutor-info {
+    position: relative;
+    overflow: hidden;
+}
+.large-box .tutor-info .black-bg {
+    position: absolute;
+    width: 100%;
+    height: 243px;
+    left: 0;
+    bottom: 20px;
+    box-shadow: 0 2px 15px #000;
+    background: #3d3e3e;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(68,68,68,1) 28%, rgba(51,51,51,1) 78%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(68,68,68,1) 28%,rgba(51,51,51,1) 78%);
+    background: radial-gradient(ellipse at center, rgba(68,68,68,1) 28%,rgba(51,51,51,1) 78%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#333333',GradientType=1 );
+    z-index: 1;
+}
+.large-box .tutor-info .info-box {
+    height: 473px;
+    padding: 33px 16px 20px;
+    overflow: auto;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+.large-box:nth-child(odd) .tutor-info .tutor-picture, .large-box:nth-child(odd) .tutor-info .info {
+    float: left;
+}
+.large-box:nth-child(even) .tutor-info .tutor-picture, .large-box:nth-child(even) .tutor-info .info {
+    float: right;
+}
+.large-box .tutor-info .tutor-picture {
+    display: block;
+}
+.large-box .tutor-info .info-box .info {
+    width: 816px;
+    height: 243px;
+    margin-top: 177px;
+}
+.large-box:nth-child(odd) .tutor-info  .dhv,
+.large-box:nth-child(odd) .tutor-info .detail {
+    float: left;
+}
+.large-box:nth-child(even) .tutor-info  .dhv,
+.large-box:nth-child(even) .tutor-info .detail {
+    float: right;
+}
+.large-box .tutor-info .info-box .info .dhv {
+    width: 435px;
+    display: block;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.large-box .tutor-info .info-box .detail {
+    width: 381px;
+    height: 100%;
+    background: white;
+    padding: 14px 28px;
+}
+.large-box .tutor-info .info-box .detail .tutor-name {
+    height: 62px;
+    margin-left: -8px;
+}
+.large-box .tutor-info .detail .tutor-name span {
+    display: block;
+    height: 100%;
+    float: left;
+}
+.large-box .tutor-info .detail h5,
+.large-box .tutor-info .detail h5,
+.large-box .tutor-info .detail h4,
+.large-box .tutor-info .detail p,
+.large-box .tutor-info .detail a {
+    margin: 0;padding: 0;
+    font-weight: 400;
+}
+.large-box .tutor-info .detail .tutor-name .symbol {
+    width: 154px;
+    background: url('../imgs/tutor/icon.png') -62px -424px;
+    font-size: 22px;
+    color: white;
+    line-height: 54px;
+    text-indent: 22px;
+}
+.large-box .tutor-info .detail .tutor-name .name {
+    width: 120px;
+}
+/*导师姓名*/
+.large-box .tutor-info .detail .tutor-name .name1 {
+    background: url('../imgs/tutor/icon.png') -240px -420px;
+}
+.large-box .tutor-info .detail .tutor-name .name2 {
+    background: url('../imgs/tutor/icon.png') -360px -420px;
+}
+.large-box .tutor-info .detail .tutor-name .name3 {
+    background: url('../imgs/tutor/icon.png') -502px -420px;
+}
+.large-box .tutor-info .detail .tutor-name .name4 {
+    background: url('../imgs/tutor/icon.png') -645px -420px;
+}
+.large-box .tutor-info .detail .tutor-name .name5 {
+    background: url('../imgs/tutor/icon.png') -100px -492px;
+}
+.large-box .tutor-info .detail .tutor-name .name6 {
+    background: url('../imgs/tutor/icon.png') -226px -492px;
+}
+.large-box .tutor-info .detail .tutor-name .name7 {
+    background: url('../imgs/tutor/icon.png') -378px -492px;
+}
+.large-box .tutor-info .detail .tutor-name .name8 {
+    width: 160px;
+    background: url('../imgs/tutor/icon.png') -490px -492px;
+}
+.large-box .tutor-info .detail .tutor-name .name9 {
+    background: url('../imgs/tutor/icon.png') -665px -492px;
+}
+.large-box .tutor-info .detail .tutor-name .name10 {
+    background: url('../imgs/tutor/icon.png') -95px -562px;
+}
+.large-box .tutor-info .detail .tutor-name .name11 {
+    background: url('../imgs/tutor/icon.png') -225px -562px;
+}
+.large-box .tutor-info .detail .tutor-name .name12 {
+    background: url('../imgs/tutor/icon.png') -365px -562px;
+}
+.large-box .tutor-info .detail .tutor-name .name13 {
+    background: url('../imgs/tutor/icon.png') -526px -562px;
+}
+.large-box .tutor-info .detail .tutor-name .name14 {
+    background: url('../imgs/tutor/icon.png') -662px -562px;
+}
+/*导师姓名 end*/
+.large-box .tutor-info .detail p {
+    color: #333;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.title.good-team div {
+    background: url('../imgs/tutor/icon.png') 0 -140px;
+}
+/*多导师*/
+.large-box.multi {
+    height: 621px;
+}
+.large-box.multi .tutor-info .info-box .info .dhv {
+    width: 527px;
+}
+.large-box.multi .tutor-info .info-box {
+    height: 572px;
+    padding: 0;
+}
+.large-box.multi .tutor-info .black-bg {
+    height: 343px;
+}
+.large-box.multi .tutor-info .info {
+    width: 673px;
+    height: 551px;
+    margin-top: 9px;
+}
+.large-box.multi .tutor-info .dhv {
+    margin-top: 209px;
+}
+.large-box.multi .tutor-info .detail {
+    width: 100%;
+    height: 143px;
+    float: left;
+    overflow: hidden;
+}
+.large-box.multi .tutor-info .detail .tutor-name span {
+    float: left;
+}
+/*多导师 end*/
+.title.moretutor div {
+    background: url('../imgs/tutor/icon.png') 0 -282px;
+}
+/*其它导师*/
+.more-tutor {
+    height: 470px;
+    margin-bottom: 84px;
+    padding-top: 87px;
+}
+.more-tutor .tutor-list {
+    height: 296px;
+    background: #302f2f;
+    white-space: nowrap;
+}
+.more-tutor .tutor-list ul {
+    font-size: 0;
+    overflow: hidden;
+}
+.more-tutor .tutor-list ul li {
+    width: 363px;
+    height: 254px;
+    display: inline-block;
+    margin: 20px 22px;
+    box-shadow: 2px 2px 32px 4px rgba(0,0,0,0.15);
+}
