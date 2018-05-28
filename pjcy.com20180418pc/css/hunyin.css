@@ -11,14 +11,13 @@
 /*当下问题*/
 .moment_question {
     height: 856px;
-    background: url('../imgs/hunyin/moment_question.jpg') no-repeat center;
+    background: url('.') no-repeat center;
 }
 /*当下问题 end*/
 /*不幸的婚姻*/
 .unfortunate_marriage {
     height: 582px;
     padding-top: 125px;
-    background: url('../imgs/hunyin/unfortunate_arriagebg.jpg') no-repeat center;
 }
 .unfortunate_marriage ul {
     padding: 10px 5px 15px;
@@ -130,7 +129,6 @@
 /*错误的方法*/
 .mistake_method {
     height: 746px;
-    background: url('../imgs/hunyin/mistake_methodbg.jpg') no-repeat center;
 }
 .mistake_method .container {
     padding: 135px 62px 0;
@@ -215,7 +213,6 @@
 }
 /*错误的方法 end*/
 .helpyou {
-    background: url('../imgs/hunyin/helpyoubg.jpg') no-repeat center top;
     overflow: hidden;
 }
 .helpyou>ul {
@@ -292,11 +289,9 @@
     width: 730px;
     height: 150px;
     margin: 35px auto;
-    background: url('../imgs/hunyin/helpyou_contact.png');
 }
 .first-company {
     height: 748px;
-    background: url('../imgs/hunyin/first_company.png') no-repeat center top;
     overflow: hidden;
     margin-top: 30px;
 }
@@ -396,7 +391,7 @@
 .core-technology .title {
     height: 70px;
     background: url('../imgs/hunyin/title.png') no-repeat center -60px;
-    margin: 40px 0;
+    margin: 40px auto;
 }
 .core-technology .list {
     max-width: 1250px;
@@ -496,7 +491,6 @@
 .team .tutor {
     height: 630px;
     margin-top: 15px;
-    background: url('../imgs/hunyin/teambg.jpg') no-repeat center top;
     overflow: hidden;
 }
 .team .tutor-list {
@@ -550,14 +544,12 @@
 /*始终如一*/
 .alwayssame {
     height: 1143px;
-    background: url('../imgs/hunyin/alwayssame.jpg') no-repeat center top;
 }
 /*始终如一 end*/
 /*服务全球*/
 .serviceglobal {
     height: 752px;
     margin: 55px 0 -30px;
-    background: url('../imgs/hunyin/serviceglobal.jpg') no-repeat center top;
 }
 /*服务全球 end*/
 /*客户感谢*/
@@ -570,7 +562,6 @@
 }
 .client-thanks .letter {
     height: 575px;
-    background: url('../imgs/hunyin/letterbg.jpg') no-repeat center top;
     position: relative;
 }
 .client-thanks .letter .control li {
@@ -636,7 +627,6 @@
 /*客户锦旗*/
 .client-present {
     height: 483px;
-    background: url('../imgs/hunyin/client-presentbg.jpg') no-repeat center top;
     overflow: hidden;
 }
 .client-present .container {
@@ -681,6 +671,5 @@
 .liucheng {
     height: 936px;
     margin-bottom: 40px;
-    background: url('../imgs/hunyin/liucheng.jpg') no-repeat center top;
 }
 /*流程 end*/

@@ -11,6 +11,8 @@ body{max-width: 1920px;min-width: 1200px;margin: 0 auto;}h1{font-size:2em;margin
 a {text-decoration: none;cursor: pointer;}
 * {box-sizing: border-box;}
 ul {padding: 0;margin: 0;}
+.oh {overflow: hidden;}
+.lbg {background-image: url(data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=);background-repeat: no-repeat;background-position: center top}
 .list-style-none, .list-style-none li {
     list-style: none;
 }
@@ -259,6 +261,10 @@ ul {padding: 0;margin: 0;}
     text-align: center;
     margin: 0;
     line-height: 26px;
+}
+.footer .qrcode div img {
+    width: 112px;
+    height: 116px;
 }
 .footer .hr {
     border-bottom: 1px solid #666;

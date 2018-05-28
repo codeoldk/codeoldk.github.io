@@ -31,6 +31,11 @@ a {
 img {
   display: block; }
 
+.lbg {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;
+  background-position: center top; }
+
 /*reset end*/
 .swiper-container {
   margin: 0 auto;
@@ -238,10 +243,10 @@ button.swiper-pagination-bullet {
 /*媒体查询*/
 @media screen and (min-width: 10px) and (max-width: 319px) {
   html {
-    font-size: 1.8888px; } }
+    font-size: 7.8888px; } }
 @media screen and (min-width: 320px) and (max-width: 359px) {
   html {
-    font-size: 8.8888px; } }
+    font-size: 8.85px; } }
 @media screen and (min-width: 360px) and (max-width: 374px) {
   html {
     font-size: 10px; } }
@@ -570,7 +575,6 @@ header .banner img {
   .tutor .getdata {
     text-align: center; }
   .tutor .t {
-    background: url("../imgs/tutorbg.jpg") no-repeat center top;
     background-size: cover;
     padding: 1.5rem 0 1.8rem;
     position: relative; }
@@ -759,8 +763,8 @@ header .banner img {
       float: left; }
     .zixun .slide-box li .resume {
       width: 20.25rem;
-      float: left;
-      margin: 0.25rem 0 0 0.75rem; }
+      float: right;
+      margin-top: 0.25rem; }
       .zixun .slide-box li .resume h5 {
         font-size: 1.1rem;
         color: #333;
@@ -803,7 +807,8 @@ header .banner img {
   margin: 0 auto; }
   .coenv .page li {
     width: 9.85rem;
-    height: 3rem; }
+    height: 3rem;
+    float: left; }
   .coenv .page li:first-child {
     background: url("../imgs/icon.png") no-repeat 68.6684073107% 55%;
     background-size: 29rem 23rem; }

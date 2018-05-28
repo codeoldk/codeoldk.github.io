@@ -144,7 +144,7 @@ $('.yewu .yewu-container').slide({control: '.yewu .yewu-container .controls li'}
                 "width":this.setting.posterWidth,
                 "height":this.setting.posterHeight,
                 "left":width,
-                "zIndex":Math.ceil(this.posterItems.size()/2),
+                "zIndex":Math.ceil(this.posterItems.length/2),
                 "top":this.setVertialType(this.setting.posterHeight)
             });
         },
@@ -287,16 +287,17 @@ let carousel = {
 };
 Caroursel.init($('.carousel').data('setting', JSON.stringify(carousel)));
 
-$mq = new supperSlider($('.teacher .preview ul'));
+$mq = new supperSlider($('.teacher .preview ul'), true);
 $('.teacher .preview .btn-prev').click(function(){
     $mq.prev(159);
 });
 $('.teacher .preview .btn-next').click(function(){
-    $mq.next(150);
+    $mq.next(159);
 });
 $('.teacher .preview ul li').mouseover(function(){
     var number = $(this).attr('teacher') || 1;
     $('.teacher .detail-list li').removeClass('active').eq(number-1).addClass('active');
+    $(window).trigger('scroll.lazyload');
 });
 // 媒体报道移入浮动
 $('.media-container li').hover(function(){
@@ -304,7 +305,7 @@ $('.media-container li').hover(function(){
 }, function(){
     $(this).css('z-index', $(this).css('z-index') / 20).removeClass('active');
 });
-$np = new supperSlider($('.small-newspaper ul'));
+$np = new supperSlider($('.small-newspaper ul'), true);
 $('.small-newspaper .prev-btn').click(function(){
     $np.prev(153);
 });
@@ -312,16 +313,11 @@ $('.small-newspaper .next-btn').click(function(){
     $np.next(153);
 });
 // 成功案例
-$('.case-container .case-list li').mouseover(function(){
-    var $this = $(this);
-    var html = $this.children('.case-detail').html();
-    $this.parent().siblings('.case-detail').html(html);
-    $this.addClass('active').siblings('li').removeClass('active');
-});
+$('.case-container').slide({control: '.case-container .case-list li',lazyload:true});
 // 办公环境
-$('.hj-box').slide({control: '.hj-box ul li'});
+$('.hj-box').slide({control: '.hj-box ul li',lazyload:true});
 // 资料分享
-$('.datashare .data-container').slide({control: '.data-container ul li'});
+$('.datashare .data-container').slide({control: '.data-container ul li',lazyload:true});
 // 常见问题
 $('.information .oq .question-list ul').marquee({
     direction: "up", // 方向
@@ -333,10 +329,15 @@ $('.information .oq .question-list ul').marquee({
     startVisible: true,
 });
 // 合作栏目
-$md = new supperSlider($('.lm-container .lm-list ul'));
+$md = new supperSlider($('.lm-container .lm-list ul'), true);
 $('.lm-container .prev-btn').click(function(){
     $md.prev(138);
 });
 $('.lm-container .next-btn').click(function(){
     $md.next(138);
+});
+
+$('img[data-original], .lazyload').lazyload({
+    threshold: 480,
+    failure_limit: 17
 });

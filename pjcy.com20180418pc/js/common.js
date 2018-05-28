@@ -34,7 +34,9 @@ $.fn.slide = function(params = {}){
         // 当前class
         controlClass: params.controlClass || 'active',
         // 播放起始位置
-        index: params.index || 0
+        index: params.index || 0,
+        // lazyload
+        lazyload: false
     };
     opt = $.extend({}, opt, params);
     // 获取容器的jquery对象
@@ -47,10 +49,13 @@ $.fn.slide = function(params = {}){
     }
     var showSlide = function(index) {
         // 显示幻灯片
-        opt.slide.hide().eq(index).fadeIn(1000).css({'display':'block'});
+        opt.slide.hide().eq(index).fadeIn(800).css({'display':'block'});
         // 如果存在控制对象 增加控制class
         if (opt.control && opt.control.length) {
             opt.control.removeClass(opt.controlClass).eq(index).addClass(opt.controlClass);
+        }
+        if (opt.lazyload) {
+            $(window).trigger('scroll.lazyload');
         }
     }
     var prevEvent = function(){
@@ -100,12 +105,12 @@ $.fn.slide = function(params = {}){
     }
 };
 // 轮播切换
-function supperSlider($this)
+function supperSlider($this, lazyload)
 {
     var width = $this.width();
 
-    $this.append($this.html());
-    $this.append($this.html());
+    var html = $this.html();
+    $this.append(html).append(html);
 
     $this.css('left', -width);
 
@@ -115,6 +120,7 @@ function supperSlider($this)
             if (Math.abs(left) <= 0) {
                 $this.css('left', -width);
             }
+            if(lazyload)$(window).trigger('scroll.lazyload');
         });
     };
     this.next = function(w) {
@@ -123,6 +129,7 @@ function supperSlider($this)
             if (Math.abs(left) >= width * 2) {
                 $this.css('left', -width);
             }
+            if(lazyload)$(window).trigger('scroll.lazyload');
         });
     };
 };

@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5,h6 {font-weight: 400;}
 li {list-style: none;}
 a {text-decoration: none;}
 img {display: block;}
+.lbg {background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC');background-repeat: no-repeat;background-position: center top;}
 /*reset end*/
 .swiper-container {
   margin: 0 auto;
@@ -224,12 +225,12 @@ button.swiper-pagination-bullet {
 /*媒体查询*/
 @media screen and(min-width: 10px)and(max-width: 319px){ 
     html{ 
-        font-size: 1.8888px
+        font-size: 7.8888px
     } 
 } 
 @media screen and(min-width: 320px)and(max-width: 359px){ 
     html{ 
-        font-size: 8.8888px
+        font-size: 8.85px
     } 
 } 
 @media screen and(min-width: 360px)and(max-width: 374px){ 
@@ -637,7 +638,6 @@ header {
         text-align: center; 
     }
     .t {
-        background: url('../imgs/tutorbg.jpg') no-repeat center top;
         background-size: cover;
         padding: rem(30) 0 rem(36);
         .detail {
@@ -860,8 +860,8 @@ header {
             }
             .resume {
                 width: rem(405);
-                float: left;
-                margin: rem(5) 0 0 rem(15);
+                float: right;
+                margin-top: rem(5);
                 h5 {
                     font-size: rem(22);
                     color: #333;
@@ -916,6 +916,7 @@ header {
         li {
             width: rem(197);
             height: rem(60);
+            float: left;
         }
         li:first-child {
             @include icon(197,60,263,220);

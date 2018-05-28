@@ -27,7 +27,6 @@
     margin: 50px auto 25px;
 }
 .lostlove {
-    background: url('../imgs/aiqing/lostlovebg.jpg') no-repeat center;
     height: 675px;
 }
 .lostlove ul {
@@ -118,13 +117,11 @@
 }
 .lostlove2 {
     height: 550px;
-    background: url('../imgs/aiqing/lostlove2bg.jpg') no-repeat center;
 }
 /*失恋 end*/
 /*挽回失败*/
 .redeemfail {
     height: 780px;
-    background: url('../imgs/aiqing/redeemfailbg.jpg') no-repeat center top;
 }
 .redeemfail .title {
     background: url('../imgs/aiqing/title.png') no-repeat center -100px;
@@ -175,7 +172,6 @@
 /*挽回爱情服务*/
 .redeem-service {
     height: 780px;
-    background: url('../imgs/aiqing/redeem-servicebg.png') no-repeat center top;
 }
 .redeem-service .control {
     padding: 125px 0 0 69px;
@@ -237,7 +233,6 @@
 /*选择我们*/
 .choice-us {
     height: 748px;
-    background: url('../imgs/aiqing/choice-usbg.png') no-repeat center top;
     overflow: hidden;
     margin-top: 30px;
 }
@@ -438,7 +433,6 @@
 .team .tutor {
     height: 590px;
     margin-top: 15px;
-    background: url('../imgs/aiqing/teambg.jpg') no-repeat center top;
     overflow: hidden;
 }
 .team .tutor-list {
@@ -492,7 +486,6 @@
 /*一对一*/
 .onetoone {
     height: 720px;
-    background: url('../imgs/aiqing/onetoone.jpg') no-repeat center top;
     overflow: hidden;
 }
 .onetoone .title {
@@ -544,7 +537,7 @@
 .liaojie .different {
     height: 1031px;
     padding: 252px 68px 0;
-    background: url('../imgs/aiqing/differentbg.png') no-repeat center top;
+    background-position: center top;
 }
 .liaojie .different li {
     overflow: hidden;
@@ -577,19 +570,16 @@
 .serviceglobal {
     height: 800px;
     margin: 55px 0 -30px;
-    background: url('../imgs/aiqing/serviceglobal.jpg') no-repeat center top;
 }
 /*服务全球 end*/
 /*流程*/
 .liucheng {
     height: 815px;
-    background: url('../imgs/aiqing/liucheng.jpg') no-repeat center top;
 }
 /*流程 end*/
 /*客户感言*/
 .client-thanks {
     height: 760px;
-    background: url('../imgs/aiqing/client-thianksbg.jpg') no-repeat center top;
 }
 .client-thanks>div {
     padding-top: 155px;
@@ -597,7 +587,6 @@
 .client-thanks .phone-show {
     width: 304px;
     height: 586px;
-    background: url('../imgs/aiqing/client-thanks-phonebg.png') no-repeat center;
     padding: 71px 34px 103px;
     float: left;
     position: relative;
@@ -700,9 +689,12 @@
     box-shadow: 0 0 15px rgba(20,20,20,0.3);
     top: 22px;
     left: 10px; 
+    width: 216px;
     height: 380px;
+    display: none;
 }
 .client-thanks .phone-show img.active,
+.client-thanks .page img.active,
 .client-thanks .cover li.active {
     display: block;
 }
@@ -710,7 +702,6 @@
 /*客户赠送*/
 .client-present {
     height: 620px;
-    background: url('../imgs/aiqing/client-presentbg.jpg') no-repeat center top;
     overflow: hidden;
 }
 .client-present .container {

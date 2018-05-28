@@ -49,7 +49,7 @@
 .section-media .mediapicture {
     height: 608px;
     overflow: hidden;
-    background: url('../imgs/index/mediabg.png') no-repeat center;
+    background: url(data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=) no-repeat center;
 }
 .section-media .media {
     width: 555px;
@@ -73,7 +73,7 @@
 }
 /*按钮结束*/
 .yewu .bigtitle {
-    background: url('../imgs/index/titles.png');
+    background: url(data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=);
     margin: 15px auto;
 }
 .yewu .controls {
@@ -82,7 +82,7 @@
 }
 .yewu-container {
     height: 620px;
-    background: url('../imgs/index/yewubg.png') no-repeat center 170px;
+    background: url(data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=) no-repeat center 170px;
     position: relative;
 }
 /*切换按钮*/
@@ -160,13 +160,13 @@
     margin: 0 2px;
 }
 .yewu .hunyin .symbol {
-    background: url('../imgs/index/yewu-yiduiyi.jpg');
+    background: url(data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=);
 }
 .yewu .aiqing .symbol {
-    background: url('../imgs/index/yewu-yiduiyi.jpg') -394px 0;
+    background: url(data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=) -394px 0;
 }
 .yewu .zhenai .symbol {
-    background: url('../imgs/index/yewu-yiduiyi.jpg') -786px 0;
+    background: url(data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=) -786px 0;
 }
 .yewu .aiqing {
     margin: 0 70px;
@@ -264,11 +264,11 @@
 /*cctv专家团队介绍*/
 .cctv-specialist {
     height: 657px;
-    background: url('../imgs/index/cctv-specialistbg.jpg') center bottom no-repeat;
+    background-position: center bottom;
     padding-top: 72px;
 }
 .cctv-specialist .bigtitle {
-    background: url('../imgs/index/titles.png') 0 -570px;
+    background-position: 0 -570px;
 }
 .cctv-specialist .description {
     text-align: center;
@@ -324,12 +324,11 @@
 /*cctv专家团队简介*/
 /*导师介绍*/
 .teacher-title {
-    background: url('../imgs/index/titles.png') 0 -570px;
+    background-position: 0 -570px;
     margin: 72px auto 20px;
 }
 .teacher {
     height: 614px;
-    background: url('../imgs/index/teacherbg.jpg') center;
 }
 .teacher .detail-list {
     width: 932px;
@@ -436,12 +435,11 @@
 /*导师介绍 end*/
 /*媒体报道*/
 .media-title {
-    background: url('../imgs/index/titles.png') 0 -710px;
+    background-position: 0 -710px;
     margin: 70px auto 0;
 }
 .media-container {
     height: 684px;
-    background: url('../imgs/index/mediabg.jpg') center;
 }
 .media-container .bignewspaper {
     position: relative;
@@ -549,12 +547,12 @@
 /*媒体报道 end*/
 /*成功案例*/
 .case-title {
-    background: url('../imgs/index/titles.png') 0 -285px;
+    background-position: 0 -285px;
     margin: 10px auto 25px;
 }
 .success-case {
     height: 567px;
-    background: url('../imgs/index/success-casebg.jpg') center;
+    background-position: center;
 }
 .case-container {
     position: relative;
@@ -573,11 +571,16 @@
     background: -webkit-linear-gradient(-45deg, rgba(215,121,8,1) 0%,rgba(254,217,71,1) 50%,rgba(215,121,8,1) 100%);
     background: linear-gradient(135deg, rgba(215,121,8,1) 0%,rgba(254,217,71,1) 50%,rgba(215,121,8,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d77908', endColorstr='#d77908',GradientType=1 );
+    box-shadow: 0 0 10px rgba(0,0,0,0.34);
 }
 .case-container .case-list li img {
     width: 100%;
     height: 100%;
     border-radius: 100%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.case-container .case-list li.active img {
+    box-shadow: none;
 }
 .case-container .case-list li.small {
     width: 99px;
@@ -587,9 +590,6 @@
     width: 118px;
     height: 118px;
 }
-.case-container .case-list li .case-detail {
-    display: none;
-}
 .case-container .case-detail {
     width: 730px;
     height: 250px;
@@ -597,7 +597,15 @@
     top: 76px;
     left: 246px;
 }
+.case-container .case-detail>div {
+    display: none;
+}
+.case-container .case-detail>div:nth-child(6) {
+    display: block;
+}
 .case-container .case-detail img {
+    width: 225px;
+    height: 225px;
     border-radius: 100%;
     margin: 11px;
     float: left;
@@ -641,7 +649,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcefef',GradientType=0 );
 }
 .hj-container .bigtitle {
-    background: url('../imgs/index/titles.png') 0 -428px;
+    background-position: 0 -428px;
     margin: 70px auto 8px;
 }
 .hj-box .controls {
@@ -683,7 +691,8 @@
 }
 .huanjing .style-buchang {
     height: 64px;
-    background: url('../imgs/index/office-bolang.jpg') center top no-repeat;
+    background: center top;
+    background-repeat: no-repeat;
 }
 /*成功案例 end*/
 .smalltitle {
