@@ -18,7 +18,7 @@ t={transform:"translateX("+("left"==a.direction?"-"+m+"px":n+"px")+")"},e++):3==
 E(c[0],"AnimationEnd",function(){w();b.trigger("finished")})}else c.animate(t,a.duration,a.easing,function(){b.trigger("finished");a.pauseOnCycle?b.timer=setTimeout(w,a.delayBeforeStart):w()});b.data("runningStatus","resumed")};b.bind("pause",l.pause);b.bind("resume",l.resume);a.pauseOnHover&&(b.bind("mouseenter",l.pause),b.bind("mouseleave",l.resume));p&&a.allowCss3Support?w():b.timer=setTimeout(w,a.delayBeforeStart)}})};f.fn.marquee.defaults={allowCss3Support:!0,css3easing:"linear",easing:"linear",
 delayBeforeStart:1E3,direction:"left",duplicated:!1,duration:5E3,gap:20,pauseOnCycle:!1,pauseOnHover:!1,startVisible:!1}})(jQuery);
 // 大屏轮播图
-$.fn.slide = function(params = {}){
+$.fn.slide = function(params){
     var opt = {
         // 容器
         container: params.container || this,
@@ -55,7 +55,7 @@ $.fn.slide = function(params = {}){
             opt.control.removeClass(opt.controlClass).eq(index).addClass(opt.controlClass);
         }
         if (opt.lazyload) {
-            $(window).trigger('scroll.lazyload');
+            $(window).trigger('scroll');
         }
     }
     var prevEvent = function(){
@@ -120,7 +120,7 @@ function supperSlider($this, lazyload)
             if (Math.abs(left) <= 0) {
                 $this.css('left', -width);
             }
-            if(lazyload)$(window).trigger('scroll.lazyload');
+            if(lazyload)$(window).trigger('scroll');
         });
     };
     this.next = function(w) {
@@ -129,7 +129,7 @@ function supperSlider($this, lazyload)
             if (Math.abs(left) >= width * 2) {
                 $this.css('left', -width);
             }
-            if(lazyload)$(window).trigger('scroll.lazyload');
+            if(lazyload)$(window).trigger('scroll');
         });
     };
 };
