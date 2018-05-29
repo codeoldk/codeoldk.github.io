@@ -274,7 +274,7 @@ $('.yewu .main-info').marquee({
     startVisible: true,
 });
 // 旋转木马轮播
-let carousel = {
+var carouselParms = {
     "width":1044,         //旋转木马的宽度
     "height":351,         //旋转木马的高度
     "posterWidth":536,    //当前显示的图片的宽度
@@ -285,7 +285,7 @@ let carousel = {
     "isAutoplay":0,  //自动播放
     "dealy":4000        //延迟时间
 };
-Caroursel.init($('.carousel').data('setting', JSON.stringify(carousel)));
+Caroursel.init($('.carousel').data('setting', JSON.stringify(carouselParms)));
 
 $mq = new supperSlider($('.teacher .preview ul'), true);
 $('.teacher .preview .btn-prev').click(function(){
